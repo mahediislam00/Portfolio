@@ -142,16 +142,7 @@ const experience = [
    },
    ───────────────────────────────────────────────────────────────────────── */
 const projects = [
-  {
-    title: "XAI-Integrated MobileNet Ensembles",
-    tag: "// MOBILENET · ENSEMBLE · XAI",
-    badge: "98% ACC",
-    tone: "",             // "", "purple", "green", "gold"
-    img: "",              // e.g. "images/xai-mobilenet.png" or a full URL
-    blurb: "Fine-tuned MobileNet ensembles on a curated 30,000+ image dataset with explainability layers — robust, generalizable image detection with strong real-world consistency.",
-    stack: [{ label: "TensorFlow" }, { label: "Keras" }, { label: "MobileNet" }, { label: "XAI", color: "green" }],
-    url: ""
-  },
+  
   {
     title: "Federated ML for Decentralized Healthcare",
     tag: "// FEDERATED · HEALTHCARE · ENSEMBLES",
@@ -160,27 +151,37 @@ const projects = [
     img: "images/fed.png",              // e.g. "images/federated-healthcare.png" or a full URL
     blurb: "Privacy-preserving federated learning across institutions with no raw patient data sharing. Processed 100K+ insurance records; ensemble models (AdaBoost, RF, GBR, HGB, SGD, XGBoost) for cost prediction and risk scoring.",
     stack: [{ label: "Federated", color: "purple" }, { label: "XGBoost" }, { label: "AdaBoost" }, { label: "RF · GBR" }, { label: "Scikit-Learn" }],
-    url: ""
+    url: "https://fedhealth-8j66.onrender.com/"
+  },
+  {
+    title: "XAI-Integrated MobileNet Ensembles",
+    tag: "// MOBILENET · ENSEMBLE · XAI",
+    badge: "RESEARCH",
+    tone: "gold",             // "", "purple", "green", "gold"
+    img: "images/xai.png",              // e.g. "images/xai-mobilenet.png" or a full URL
+    blurb: "Fine-tuned MobileNet ensembles on a curated 30,000+ image dataset with explainability layers — robust, generalizable image detection with strong real-world consistency.",
+    stack: [{ label: "TensorFlow" }, { label: "Keras" }, { label: "MobileNet" }, { label: "XAI", color: "green" }],
+    url: "https://drive.google.com/file/d/16WTfMP01jj94dHwQ5t7HvAWiVf7h_zak/view?usp=sharing"
   },
   {
     title: "AAOTP — ASCII-Art OTP System",
     tag: "// 2FA · ACCESSIBILITY · ASCII",
     badge: "RESEARCH",
     tone: "gold",
-    img: "",              // e.g. "images/aaotp.png" or a full URL
+    img: "images/aaotp.png",              // e.g. "images/aaotp.png" or a full URL
     blurb: "An SMS-based 2FA system for low-literacy users — 12×12 ASCII-rendered OTPs delivered within the 160-char GSM limit, with threat modeling against interception, shoulder-surfing, and phone-sharing.",
     stack: [{ label: "Accessibility", color: "gold" }, { label: "Security", color: "gold" }, { label: "Python" }, { label: "SMS · GSM" }],
-    url: ""
+    url: "https://drive.google.com/file/d/1dfweyABRPpU_SPDIcU1edXQil8FmZinv/view"
   },
   {
     title: "ESP32 Surveillance & Observation Robot",
     tag: "// ESP32 · ROBOTICS · IoT",
-    badge: "TOP 6 · RUET",
+    badge: "TOP PROJECT AWARD · RUET",
     tone: "green",
-    img: "",              // e.g. "images/esp32-robot.png" or a full URL
+    img: "images/robot.jpg",              // e.g. "images/esp32-robot.png" or a full URL
     blurb: "Remote-controlled surveillance robot with ESP32-CAM — real-time video streaming, 270° camera coverage, Wi-Fi & Bluetooth control, and a mobile/web interface. Awarded Top 6 Project at RUET.",
     stack: [{ label: "ESP32-CAM", color: "green" }, { label: "IoT" }, { label: "Embedded" }, { label: "Web UI" }],
-    url: ""
+    url: "https://drive.google.com/file/d/1ygdJyhcplTu70_KO1YApYhnVZe0y2Dw9/view?usp=sharing"
   }
 ];
 
@@ -223,9 +224,9 @@ const publication = {
 const proficiency = [
   { label: "Python",                       pct: 95 },
   { label: "Machine Learning",             pct: 92 },
-  { label: "Deep Learning (TF / Keras)",   pct: 88 },
+  { label: "Deep Learning (TensorFlow / Keras)",   pct: 88 },
   { label: "LLM / Agents / LangChain",     pct: 85, fill: "linear-gradient(90deg,#8899ff,#00d4ff)" },
-  { label: "Automation (Selenium / BS4)",  pct: 90, fill: "linear-gradient(90deg,#00d4ff,#00ff88)" },
+  { label: "Automation (Selenium / Zapier)",  pct: 90, fill: "linear-gradient(90deg,#00d4ff,#00ff88)" },
   { label: "Data Viz (Power BI / Tableau)",pct: 82, fill: "linear-gradient(90deg,#00d4ff,#ffb800)" },
   { label: "SQL / Data Modeling",          pct: 80 },
   { label: "MLOps (MLflow)",               pct: 78, fill: "linear-gradient(90deg,#8899ff,#00ff88)" }
@@ -236,7 +237,7 @@ const stack = [
   { label: "FRAMEWORKS & LIBRARIES",chips: [{label:"Pandas"},{label:"NumPy"},{label:"Scikit-Learn"},{label:"Matplotlib"},{label:"TensorFlow"},{label:"Keras"}] },
   { label: "AI & AUTOMATION",       chips: [
       {label:"CrewAI",color:"purple"},{label:"LangChain",color:"purple"},{label:"OpenAI API",color:"purple"},
-      {label:"Selenium",color:"gold"},{label:"BeautifulSoup",color:"gold"},{label:"Serper",color:"gold"}
+      {label:"Zapier",color:"gold"},{label:"BeautifulSoup",color:"gold"},{label:"Serper",color:"gold"}
   ]},
   { label: "TOOLS & DATA",          chips: [
       {label:"Power BI",color:"green"},{label:"Tableau",color:"green"},{label:"MySQL",color:"green"},
