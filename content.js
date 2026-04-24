@@ -91,7 +91,7 @@ const experience = [
   {
     role: "AI Trainer",
     roleNote: "(Contractual)",
-    company: "Scale.AI / Outlier",
+    company: "Scale.AI",
     period: "JUL 2024 — NOV 2024",
     accent: "#00ff88",
     bullets: [
@@ -142,7 +142,16 @@ const experience = [
    },
    ───────────────────────────────────────────────────────────────────────── */
 const projects = [
-  
+  {
+  title: "Multi-Horizon Price Forecasting with XGBoost and Technical Indicators",
+  tag: "// FORECASTING · FINTECH · XGBOOST",
+  badge: "Time-series",
+  tone: "green",
+  img: "images/markex.jpeg",
+  blurb: "Full-stack financial forecasting platform covering stocks, crypto, forex, commodities and ETFs. XGBoost regression models trained on 5 years of OHLCV data with 40+ engineered features with tools and price targets. Django REST backend with persistent forecast storage, daily scheduled retraining, and token-authenticated API.",
+  stack: [{ label: "XGBoost", color: "green" }, { label: "Django" }, { label: "yfinance" }, { label: "REST API" }, { label: "Scikit-Learn" }, { label: "Pandas" }],
+  url: "https://atzsolution.tech/"
+},
   {
     title: "Federated ML for Decentralized Healthcare",
     tag: "// FEDERATED · HEALTHCARE · ENSEMBLES",
@@ -182,7 +191,9 @@ const projects = [
     blurb: "Remote-controlled surveillance robot with ESP32-CAM — real-time video streaming, 270° camera coverage, Wi-Fi & Bluetooth control, and a mobile/web interface. Awarded Top 6 Project at RUET.",
     stack: [{ label: "ESP32-CAM", color: "green" }, { label: "IoT" }, { label: "Embedded" }, { label: "Web UI" }],
     url: "https://drive.google.com/file/d/1ygdJyhcplTu70_KO1YApYhnVZe0y2Dw9/view?usp=sharing"
-  }
+  },
+ 
+
 ];
 
 /* ── PUBLICATION / PAPER ─────────────────────────────────────────────────
