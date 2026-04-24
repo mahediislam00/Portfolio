@@ -77,7 +77,7 @@ const experience = [
     role: "LLM Trainer",
     roleNote: "(Contractual)",
     company: "Anuttacon",
-    period: "NOV 2025 — APRL 2026",
+    period: "NOV 2025 — PRESENT",
     accent: "#8899ff",
     bullets: [
       "Annotated and evaluated narrative game content — dialogues, quests, character interactions — to produce high-quality LLM training datasets.",
