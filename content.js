@@ -72,6 +72,7 @@ const experience = [
       { label: "Power BI", color: "green" }
     ]
   },
+
   {
     role: "LLM Trainer",
     roleNote: "(Contractual)",
@@ -182,6 +183,16 @@ const projects = [
     stack: [{ label: "Accessibility", color: "gold" }, { label: "Security", color: "gold" }, { label: "Python" }, { label: "SMS · GSM" }],
     url: "https://drive.google.com/file/d/1dfweyABRPpU_SPDIcU1edXQil8FmZinv/view"
   },
+  {
+  title: "Regime-Aware Time Series Forecasting with Hybrid HMM–XGBoost",
+  tag: "// HMM · XGBOOST · TIME-SERIES · XAI",
+  badge: "RESEARCH",
+  tone: "purple",
+  img: "images/hmm.png",
+  blurb: "Time-series research combining Hidden Markov Models with XGBoost for regime-aware financial forecasting across stocks and commodities. HMM detects latent market regimes which are fed as contextual features into XGBoost. TreeSHAP applied for global, regime-specific, and local explainability.",
+  stack: [{ label: "HMM", color: "purple" }, { label: "XGBoost" }, { label: "TreeSHAP" }, { label: "Scikit-Learn" }, { label: "Time Series" }, { label: "IEEE" }],
+  url: "https://drive.google.com/file/d/1GgEPJI57wzdnzdOSrsW7HiZrLSwsX1iD/view?usp=sharing"
+},
   {
     title: "ESP32 Surveillance & Observation Robot",
     tag: "// ESP32 · ROBOTICS · IoT",
