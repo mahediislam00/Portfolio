@@ -60,10 +60,10 @@ const experience = [
     period: "NOV 2024 — PRESENT",
     accent: "#00d4ff",
     bullets: [
-      "Built the ML backend for a time-series financial forecasting app — XGBoost + LSTM models, end-to-end architecture, and a production-grade MLOps pipeline with MLflow.",
-      "Developed Python automation for U.S. government contract capture — OpenAI APIs, CrewAI agents, Selenium / BeautifulSoup scraping, and pandas + openpyxl ETL.",
+      "Built the ML backend for a time-series financial forecasting app with XGBoost + LSTM models, end-to-end architecture, and a production-grade MLOps pipeline with MLflow.",
+      "Developed Python automation for U.S. government contract capture  with OpenAI APIs, CrewAI agents, Selenium / BeautifulSoup scraping, and pandas + openpyxl ETL.",
       "Cleaned and modeled large government contract datasets with OpenRefine and Power BI for accurate downstream reporting.",
-      "Led user-facing work — Chrome extension + AI-powered chatbots — to cut support load and lift engagement."
+      "Led user-facing work, published Chrome extension + AI-powered chatbots to cut support load and lift engagement."
     ],
     stack: [
       { label: "Python" }, { label: "XGBoost" }, { label: "LSTM" }, { label: "MLflow" },
@@ -77,10 +77,10 @@ const experience = [
     role: "LLM Trainer",
     roleNote: "(Contractual)",
     company: "Anuttacon",
-    period: "NOV 2025 — PRESENT",
+    period: "NOV 2025 — APRL 2026",
     accent: "#8899ff",
     bullets: [
-      "Annotated and evaluated narrative game content — dialogues, quests, character interactions — to produce high-quality LLM training datasets.",
+      "Annotated and evaluated narrative game content dialogues, quests, character interactions to produce high-quality LLM training datasets.",
       "Ran RLHF evaluations, scoring model outputs against structured rubrics to improve alignment and coherence.",
       "Collaborated with research and product teams on SOTA large language model development."
     ],
@@ -96,7 +96,7 @@ const experience = [
     period: "JUL 2024 — NOV 2024",
     accent: "#00ff88",
     bullets: [
-      "Reviewed multiple RLHF projects targeting OpenAI and Google Gemini models — contributed to fine-tuning, accuracy, and client satisfaction.",
+      "Reviewed multiple RLHF projects targeting OpenAI and Google Gemini models, contributed to fine-tuning, accuracy, and client satisfaction.",
       "Built interactive dashboards in Python and Power BI with enterprise-grade UI and actionable insights.",
       "Designed unit, integration, and end-to-end test suites to validate reliability of AI-generated code."
     ],
