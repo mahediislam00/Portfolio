@@ -524,7 +524,7 @@ function initNavHighlight() {
 /* ---------- PHOTO (kept simple — edit values here) ------------------- */
 
 const PHOTO = {
-  url:   "https://media.licdn.com/dms/image/v2/D5603AQEE_gQi6RFBJQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722935626062?e=1778716800&v=beta&t=Td7mSYZorWjvzDMOjmR2AelBlpc9U1W8734xnFO8h10",
+  url:   "images/mahedi.jpg",
   size:  160,
   shape: "rounded",   // "rounded" | "circle" | "square"
   show:  true
