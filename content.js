@@ -209,7 +209,7 @@ const projects = [
   badge: "RESEARCH",
   tone: "gold",
   img: "images/halfrevealpaper.png",
-  blurb: "Proposes and evaluates a split-masking password obfuscation scheme — selectively revealing the left or right half of a password during entry — purpose-built for shared-screen threat models (video calls, CCTV, remote classrooms) where traditional full-masking and global show/hide toggles fall short. Mixed-methods within-subject experiment measures authentication latency, error rate, Shannon entropy of the concealed half, SUS usability scores, NASA-TLX cognitive workload, and perceived security via Likert scales. Statistical analysis uses paired t-tests, Wilcoxon signed-rank, Cohen's d, and McNemar's test; qualitative exit-survey data coded via inductive thematic analysis with inter-rater Cohen's κ.",
+  blurb: "Proposes and evaluates a split-masking password obfuscation scheme, selectively revealing the left or right half of a password during entry. Built for shared-screen threat models (video calls, CCTV, remote classrooms) where traditional full-masking and global show/hide toggles fall short. Statistical analysis uses paired t-tests, Cohen's d, and McNemar's test; qualitative exit-survey data coded via inductive thematic analysis with inter-rater Cohen's κ.",
   stack: [
     { label: "Usable Security", color: "gold" },
     { label: "HCI · CHI" },
