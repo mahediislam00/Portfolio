@@ -163,22 +163,6 @@ const projects = [
     stack: [{ label: "Federated", color: "purple" }, { label: "XGBoost" }, { label: "AdaBoost" }, { label: "RF · GBR" }, { label: "Scikit-Learn" }],
     url: "https://fedhealth-8j66.onrender.com/"
   },
-   {
-  title: "StyleCast — Readability & Style Transformer",
-  tag: "// NLP · READABILITY · LLM-POWERED",
-  badge: "LIVE DEMO",
-  tone: "blue",
-  img: "images/stylecast.png",
-  blurb: "Real-time NLP pipeline that rewrites dense academic or wiki-style prose into SEO-optimized, reader-friendly content for blogs and newsletters. Performs heuristic surface-level linguistic analysis — passive voice detection, filler token elimination, Flesch readability scoring, and lexical complexity profiling (10+ character tokens) — with live before/after diff scoring. Conversion engine targets Flesch 71.9 · Grade 6.7 · ~16-word mean sentence length · 7% second-person address rate · active voice dominance. Trained on 61K words; inference served via open-weight LLMs (Mistral, Qwen, LLaMA) for zero-cost, privacy-preserving text generation.",
-  stack: [
-    { label: "NLP Pipeline", color: "blue" },
-    { label: "Flesch Scoring" },
-    { label: "Mistral · Qwen" },
-    { label: "LLaMA" },
-    { label: "Passive Voice NLP" }
-  ],
-  url: "https://tidbithread.netlify.app/"
-},
   {
     title: "XAI-Integrated MobileNet Ensembles",
     tag: "// MOBILENET · ENSEMBLE · XAI",
