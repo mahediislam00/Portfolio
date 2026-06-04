@@ -156,12 +156,22 @@ const projects = [
   {
     title: "Federated ML for Decentralized Healthcare",
     tag: "// FEDERATED · HEALTHCARE · ENSEMBLES",
-    badge: "100K+ REC",
+    badge: "Hybrid ML",
     tone: "purple",
     img: "images/fed.png",              // e.g. "images/federated-healthcare.png" or a full URL
     blurb: "Privacy-preserving federated learning across institutions with no raw patient data sharing. Processed 100K+ insurance records; ensemble models (AdaBoost, RF, GBR, HGB, SGD, XGBoost) for cost prediction and risk scoring.",
     stack: [{ label: "Federated", color: "purple" }, { label: "XGBoost" }, { label: "AdaBoost" }, { label: "RF · GBR" }, { label: "Scikit-Learn" }],
     url: "https://fedhealth-8j66.onrender.com/"
+  },
+   {
+    title: "StyleCast — Readability & Style Transformer",
+    tag: "// NLP · READABILITY · LLM-POWERED",
+    badge: "NLP",
+    tone: "purple",
+    img: "images/stylecast.jpg",
+    blurb: "Real-time NLP pipeline that rewrites dense academic or wiki-style prose into SEO-optimized, reader-friendly content for blogs and newsletters. Performs heuristic surface-level linguistic analysis, passive voice detection, filler token elimination, Flesch readability scoring, and lexical complexity profiling (10+ character tokens) — with live before/after diff scoring. Trained on 61K words; inference served via open-weight LLMs (Mistral, Qwen, LLaMA) for zero-cost, privacy-preserving text generation.",
+    stack: [{ label: "NLP Pipeline", color: "blue" },{ label: "Flesch Scoring" },{ label: "Mistral · Qwen" }, { label: "LLaMA" }],
+    url: "https://tidbithread.netlify.app/"
   },
   {
     title: "XAI-Integrated MobileNet Ensembles",
@@ -193,6 +203,22 @@ const projects = [
   stack: [{ label: "HMM", color: "purple" }, { label: "XGBoost" }, { label: "TreeSHAP" }, { label: "Scikit-Learn" }, { label: "Time Series" }, { label: "IEEE" }],
   url: "https://drive.google.com/file/d/1GgEPJI57wzdnzdOSrsW7HiZrLSwsX1iD/view?usp=sharing"
 },
+   {
+  title: "Half-Reveal Password Obfuscation — Security & Usability Evaluation",
+  tag: "// HCI · AUTH-SECURITY · USABLE-SECURITY",
+  badge: "RESEARCH",
+  tone: "gold",
+  img: "images/halfrevealpaper.png",
+  blurb: "Proposes and evaluates a split-masking password obfuscation scheme — selectively revealing the left or right half of a password during entry — purpose-built for shared-screen threat models (video calls, CCTV, remote classrooms) where traditional full-masking and global show/hide toggles fall short. Mixed-methods within-subject experiment measures authentication latency, error rate, Shannon entropy of the concealed half, SUS usability scores, NASA-TLX cognitive workload, and perceived security via Likert scales. Statistical analysis uses paired t-tests, Wilcoxon signed-rank, Cohen's d, and McNemar's test; qualitative exit-survey data coded via inductive thematic analysis with inter-rater Cohen's κ.",
+  stack: [
+    { label: "Usable Security", color: "gold" },
+    { label: "HCI · CHI" },
+    { label: "Split-Masking" },
+    { label: "Shannon Entropy" },
+    { label: "SUS · NASA-TLX" },
+  ],
+  url: "https://drive.google.com/file/d/17NlWpN3zuFI-dwMGUZHn7l0Ajb8cWkcS/view?usp=sharing"
+  },
   {
     title: "ESP32 Surveillance & Observation Robot",
     tag: "// ESP32 · ROBOTICS · IoT",
