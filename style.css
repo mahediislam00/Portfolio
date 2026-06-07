@@ -19,8 +19,8 @@
     .ticker-inner:hover { animation-play-state:paused; }
 
     .nav-link {
-      font-size:10px; color:#8ab0cc; letter-spacing:0.08em;
-      text-decoration:none; transition:color .15s; font-family:'JetBrains Mono',monospace; font-weight:500;
+      font-size:13px; color:#8ab0cc; letter-spacing:0.12em;
+      text-decoration:none; transition:color .15s; font-family:'JetBrains Mono',monospace; font-weight:700;
     }
     .nav-link:hover { color:#00d4ff; }
     .nav-link.active { color:#00d4ff; font-weight:700; }
