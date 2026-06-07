@@ -535,7 +535,7 @@ function initClock() {
 
 function initNavHighlight() {
   const navLinks = document.querySelectorAll('.nav-link');
-  const ids = ['home','about','experience','projects','skills','contact'];
+  const ids = ['home','about','experience','projects','skills','education','contact'];
   const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
   function onScroll() {
     const y = window.scrollY + 120;
